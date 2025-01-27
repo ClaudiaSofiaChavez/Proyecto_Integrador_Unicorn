@@ -1,9 +1,20 @@
 # Proyecto Integrador - Análisis de Datos
-## Unicorn Data Analyst Full Program Edicion 7.0 🦄🌾
+# Unicorn Data Analyst Full Program Edicion 7.0 🦄🌾
 
 Este proyecto presenta el análisis de datos realizado para la empresa agropecuaria **Unicorn**, utilizando procesos de ETL en **SQL**, modelado en **SQL/Power BI** y un dashboard de visualizacion desarrollado en **Power BI**.
 
 A continuación, se puede encontrar un overview del proyecto y de cómo se estructura este repositorio.
+
+## Indice
+1. [Objetivo General](#-objetivo-general)
+2. [Objetivo Específico](#-objetivo-especifico-del-proyecto)
+3. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+4. [Flujo del Proyecto](#-flujo-del-proyecto)
+5. [Contenido de este Repositorio](#-contenido-de-este-repositorio)
+6. [Documentación Completa](#-documentación-completa)
+7. [Analista a Cargo](#-analista-a-cargo)
+8. [Resultados Clave](#-resultados-clave)
+
 
 ## 📋 Objetivo General
 Crear una base de datos desde cero y analizar las ventas de la empresa **Agropecuaria Unicorn**. 
