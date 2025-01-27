@@ -64,7 +64,7 @@ para mejorar el desempeño comercial de la compañía.
   - Valor de transacción por cliente y punto de venta.
   - Ventas acumuladas hasta la fecha (YTD - Year To Date).
   - Tasa de recompra (%).
-  - Entro otros.
+  - Entre otros.
 - Scripts: `Analisis_exploratorio.sql`
 
 ### 5. **Conexión MySQL a Power BI**
