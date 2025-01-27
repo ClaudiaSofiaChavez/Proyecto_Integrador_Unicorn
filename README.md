@@ -103,8 +103,8 @@ para mejorar el desempeño comercial de la compañía.
 - **Proyecto Integrador/Analisis de Ventas - Agropecuaria Unicorn/**
   - **sql/**  
     - `Agropecuario_Unicorn_Schema&Data.sql` - Script para la creación de la base de datos.  
-    - `ETL Script Agropecuaria.sql` - Script para definir tablas y relaciones, limpieza y corrección de datos. 
-    - `Model Diagram AgropecuarioUnicorn.mwb` - Modelo estrella generado a partir de las relaciones entre tablas.  
+    - `ETL_Script_Agropecuaria.sql` - Script para definir tablas y relaciones, limpieza y corrección de datos. 
+    - `Model_Diagram_AgropecuarioUnicorn.mwb` - Modelo estrella generado a partir de las relaciones entre tablas.  
     - `Analisis_exploratorio.sql` - Consultas para el análisis exploratorio de datos.  
   - **power_bi/**  
     - `Agropecuria_Unicorn_dashboard.pbix` - Archivo del modelo y dashboard en Power BI con medidas DAX.  
