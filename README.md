@@ -5,7 +5,6 @@ Este proyecto presenta el análisis de datos realizado para la empresa agropecua
 
 A continuación, se puede encontrar un overview del proyecto y de cómo se estructura este repositorio.
 
-## Indice
 ## 📑 Índice
 
 1. [Objetivo General](#-objetivo-general)
