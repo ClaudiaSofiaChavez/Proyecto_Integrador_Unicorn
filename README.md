@@ -58,7 +58,7 @@ para mejorar el desempeño comercial de la compañía.
 ---
 
 ## 📖 Documentación Completa
-Consulta la [Wiki del Proyecto](https://github.com/ClaudiSofiaChavez/Proyecto_Integrador_Unicorn/wiki) para más detalles sobre el código fuente, las decisiones técnicas y las implementaciones.
+Consulta la [Wiki del Proyecto](https://github.com/ClaudiaSofiaChavez/Proyecto_Integrador_Unicorn/wiki/Documentacion-del-Proyecto) para más detalles sobre el código fuente, las decisiones técnicas y las implementaciones.
 
 Accede al video de presentación del proyecto [Video de Presentacion](X)
 
