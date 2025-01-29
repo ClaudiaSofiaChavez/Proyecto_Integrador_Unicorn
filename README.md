@@ -6,13 +6,15 @@ Este proyecto presenta el análisis de datos realizado para la empresa agropecua
 A continuación, se puede encontrar un overview del proyecto y de cómo se estructura este repositorio.
 
 ## Indice
+## 📑 Índice
+
 1. [Objetivo General](#-objetivo-general)
 2. [Objetivo Específico](#-objetivo-especifico-del-proyecto)
 3. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-4. [Flujo del Proyecto](#-flujo-del-proyecto)
-5. [Contenido de este Repositorio](#-contenido-de-este-repositorio)
-6. [Documentación Completa](#-documentación-completa)
-7. [Analista a Cargo](#-analista-a-cargo)
+4. [Contenido de este Repositorio](#-contenido-de-este-repositorio)
+5. [Documentación Completa](#-documentación-completa)
+6. [Analista a Cargo](#-analista-a-cargo)
+7. [Flujo del proyecto](#1-creación-de-la-base-de-datos)
 8. [Resultados Clave](#-resultados-clave)
 
 
@@ -36,6 +38,38 @@ para mejorar el desempeño comercial de la compañía.
 
 ---
 
+## 📂 Contenido de este repositorio
+
+- **Proyecto Integrador/Analisis de Ventas - Agropecuaria Unicorn/**
+  - **sql/**  
+    - `Agropecuario_Unicorn_Schema&Data.sql` - Script para la creación de la base de datos.  
+    - `ETL_Script_Agropecuaria.sql` - Script para definir tablas y relaciones, limpieza y corrección de datos. 
+    - `Model_Diagram_AgropecuarioUnicorn.mwb` - Modelo estrella generado a partir de las relaciones entre tablas.  
+    - `Analisis_exploratorio.sql` - Consultas para el análisis exploratorio de datos.  
+  - **power_bi/**  
+    - `Agropecuria_Unicorn_dashboard.pbix` - Archivo del modelo y dashboard en Power BI con medidas DAX.
+  - **python/**
+    - `Generador de Nombres.ipynb` - Script de python para generar nombres randomizados usando dos archivos `.csv`de nombres y apellidos.
+    - `Names.csv` y `LastNames.csv` - Archivos que alimentan el archivo `.ipynb`
+  - **docs/**  
+    - `wiki.md` - Documentación completa del proyecto.
+    - `Memoria_Técnica_Proyecto.pdf` - Memoria Técnica del proyecto donde se explica a profundidad el proceso de analisis de datos, analisis realizado, resultados, limitaciones y recomendaciones.
+    - `Presentacion_PPTSlides.pptx` - Presentacion PPT para la exposición del proyecto.
+    - `Raw data ventas.csv` - Datos en crudo.
+---
+
+## 📖 Documentación Completa
+Consulta la [Wiki del Proyecto](https://github.com/ClaudiSofiaChavez/Proyecto_Integrador_Unicorn/wiki) para más detalles sobre el código fuente, las decisiones técnicas y las implementaciones.
+
+Accede al video de presentación del proyecto [Video de Presentacion](X)
+
+---
+
+## 👥 Analista a Cargo
+- **Claudia Sofia Chavez** - [LinkedIn](https://www.linkedin.com/in/claudiasofiachavez/) | [Portfolio](https://claudiasofiachavez.github.io/data-narratives/)
+
+---
+
 ## 🛠️ Flujo del Proyecto
 ### 1. **Creación de la Base de Datos**
 - Diseño y creación de la base de datos en **MySQL** a traves de workbench para almacenar la información estructurada.
@@ -50,22 +84,14 @@ para mejorar el desempeño comercial de la compañía.
 - Limpieza de datos para corregir inconsistencias, valores nulos, duplicados y errores.
 - Transformación de datos en SQL para normalizar y estructurar la información.
 
-  ---> Scripts para la creacion de BD (1), tablas (2), limpieza y modelado (3): `ETL Script Agropecuaria.sql`
+  ---> Scripts para la creacion de BD (1), tablas (2) y limpieza  (3): `ETL Script Agropecuaria.sql`
+  
+  ---> Modelado (3): `Model_Diagram_AgropecuarioUnicorn.mwb`
 
 ### 4. **Analisis Exploratorio a traves de Consultas SQL**
 - Desarrollo de consultas clave para analizar datos en MySQL.
-- Ejemplos 📈:
-  - Ventas por ciudad, punto de venta y vendedor.
-  - Top 5 de vendedores, ciudades, puntos de venta y clientes con mayores/menores venta.
-  - Top 5 de productos más y menos vendidos.
-  - Facturación por tipo de crédito y tipo de cliente.
-  - Total de descuentos por tipo de cliente y punto de venta.
-  - % Descuento respecto venta bruta.
-  - Valor de transacción por cliente y punto de venta.
-  - Ventas acumuladas hasta la fecha (YTD - Year To Date).
-  - Tasa de recompra (%).
-  - Entre otros.
-- Scripts: `Analisis_exploratorio.sql`
+  
+  ---> Scripts para el AED (4): `Analisis_exploratorio.sql`
 
 ### 5. **Conexión MySQL a Power BI**
 - Configuración de la conexión entre Power BI y MySQL para la importación dinámica de la información.
@@ -76,55 +102,14 @@ para mejorar el desempeño comercial de la compañía.
 
 ### 7. **Creación de Medidas con DAX**
 - Creación de tabla calendario usando DAX.
-- Creación de medias personalizadas, tales como:
-  - Cantidad_clientes.
-  - Total_descuento.
-  - Ventas_kg.
-  - Ventas_bruto.
-  - YTD_neto.
-  - Ventas_periodo_anterior.
-  - Proyeccion_porcentual.
-  - Entre otros.
+- Creación de medias personalizadas.
 
 ### 8. **Diseño y Creación del Dashboard**
 - Elección de paleta de colores.
 - Definición del layout siguiendo principios UI/UX
-- Creación de visualizaciones para analisis, por ejemplo:
-  - Desempeño de Ventas.
-  - Tendencias mensuales, semanales, diarias.
-  - Visualizacion de Indicadores Clave (KPI).
+- Creación de visualizaciones para analisis.
 
----> Archivo asociado conexión(5), modelado (6), DAX (7), visualización(8): `Agropecuria_Unicorn_dashboard.pbix`
-
----
-
-## 📂 Contenido de este repositorio
-
-- **Proyecto Integrador/Analisis de Ventas - Agropecuaria Unicorn/**
-  - **sql/**  
-    - `Agropecuario_Unicorn_Schema&Data.sql` - Script para la creación de la base de datos.  
-    - `ETL_Script_Agropecuaria.sql` - Script para definir tablas y relaciones, limpieza y corrección de datos. 
-    - `Model_Diagram_AgropecuarioUnicorn.mwb` - Modelo estrella generado a partir de las relaciones entre tablas.  
-    - `Analisis_exploratorio.sql` - Consultas para el análisis exploratorio de datos.  
-  - **power_bi/**  
-    - `Agropecuria_Unicorn_dashboard.pbix` - Archivo del modelo y dashboard en Power BI con medidas DAX.  
-  - **docs/**  
-    - `wiki.md` - Documentación completa del proyecto.
-    - `Memoria_Técnica_Proyecto.pdf` - Memoria Técnica del proyecto donde se explica a profundidad el proceso de analisis de datos, analisis realizado, resultados, limitaciones y recomendaciones.
-    - `Presentacion_PPTSlides.pptx` - Presentacion PPT para la exposición del proyecto.
----
-
-## 📖 Documentación Completa
-Consulta la [Wiki del Proyecto](https://github.com/ClaudiSofiaChavez/Proyecto_Integrador_Unicorn/wiki) para más detalles sobre el código fuente, las decisiones técnicas y las implementaciones.
-
-Accede al video de presentación del proyecto [Video de Presentacion](X)
-
----
-
-## 👥 Analista a Cargo
-- **Claudia Sofia Chavez** - [LinkedIn](https://www.linkedin.com/in/claudiasofiachavez/) | [Portfolio](https://claudiasofiachavez.github.io/data-narratives/)
-
----
+  ---> Archivo asociado conexión(5), modelado (6), DAX (7), visualización(8): `Agropecuria_Unicorn_dashboard.pbix`
 
 ## ✨ Resultados Clave
 - Live Dashboard para la toma de decisiones estratégicas.
