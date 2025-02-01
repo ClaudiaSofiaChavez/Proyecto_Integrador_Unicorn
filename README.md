@@ -72,7 +72,7 @@ Accede al video de presentación del proyecto [Video de Presentacion](X)
 ## ✨ Resultados Clave
 - Live Dashboard para la toma de decisiones estratégicas.
 - Estructuración eficiente de la base de datos para manejo continuo de la información de ventas de la empresa **Agropecuaria Unicorn**.
-- Insights visuales que simplifican la identificación de oportunidades y riesgos que se detallan a profundidad en la  [Memoria del Proyecto](https://github.com/ClaudiSofiaChavez/Proyecto_Integrador_Unicorn/Memoria_Técnica_Proyecto.pdf)
+- Insights visuales que simplifican la identificación de oportunidades y riesgos que se detallan a profundidad en la  [Memoria del Proyecto](https://github.com/ClaudiaSofiaChavez/Proyecto_Integrador_Unicorn/blob/afdcfda8eb764cc56be22db258b331a2ec677d04/docs/Memoria_T%C3%A9cnica_Proyecto.pdf)
 
 ---
 
